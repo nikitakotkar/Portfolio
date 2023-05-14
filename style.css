@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;500&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    width:100vw;
+    overflow-x: hidden;
+    /* background-image: url("image/background4.jpg"); */
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.navbar{
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+}
+.logo{
+    padding:20px 0 0 50px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: aliceblue;
+}
+.navClass
+{
+    margin-left: 40vw;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+.nav_link{
+ text-decoration: none;
+ color: aliceblue;
+}
+.nav_link::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background-color: coral;
+    margin: auto;
+    display: block;
+}
+.nav_link:hover::after{
+    width:100%;
+    transition: width 0.3s linear;
+} 
+.main{
+    width: 80vw;
+    height: 90vh;
+    margin: 50px auto;
+}
+.name{
+    width: 80vw;
+    height: 100px;
+}
+.name h2{
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: aliceblue;
+}
+.info{
+    display: flex;
+}
+.pic_info{
+    width: 45vw;
+    height: 77vh;
+    transition:.3s ease;
+}
+.description{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 75px;
+    top: 60px;
+    border-radius: 10%;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.description p{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    /*text-shadow: 0 0 3px rgb(240, 248, 255);*/
+}
+.Des_pic img{
+    width: 400px;
+    height:230px;
+    position: relative;
+    left: 30px;
+    top:25px;
+}
+.pic{
+    width: 45vw;
+    height: 77vh;
+    transition:.3s ease;
+}
+.pic img{
+    width: 550px;
+    height: 450px;
+    position: relative;
+    align-content: center;
+    top: 60px;
+    border-radius: 10%;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.pic:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+.pic_info:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+.Certification{
+    width: 80vw;
+    height: 168vh;
+    margin: 50px auto;
+    
+}
+.Certification_name{
+    width: 80vw;
+    height: 100px;
+}
+.Certification_name h2{
+        position: relative;
+        left: 300px;
+        bottom: 50px;
+        font-family: 'Sacramento', cursive;
+        font-size: 90px;
+        color: aliceblue;
+}
+.resume_name h1{
+    position: relative;
+    left: 500px;
+}
+.Resum_pic{
+    width: 80vw;
+    height: 160vh;
+}
+.Resum_info{
+    display: block;
+}
+.project_name{
+   position: relative;
+   left: 100px;
+}
+.footer{
+width: 100vw;
+height: 13vh;
+background-color: rgb(166, 173, 180);  
+color: rgb(22, 3, 69);  
+text-align: center;  
+}
+.footer_icon li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+.footer_link{
+    text-decoration: none;
+    color: rgb(22, 3, 69);
+    font-size: 30px;
+}
+
